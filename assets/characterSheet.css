@@ -1,0 +1,188 @@
+/* characterSheet.css */
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
+}
+
+/* Estilos para a imagem do cabeçalho */
+.sheet-1colrow img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para as abas */
+.sheet-tab {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sheet-tab:hover {
+  background-color: #0056b3;
+}
+
+.sheet-tab input[type="radio"] {
+  display: none;
+}
+
+.sheet-tab-content {
+  display: none;
+}
+
+.sheet-tab-content.active {
+  display: block;
+}
+
+/* Estilos para os rótulos */
+.sheet-label {
+  display: block;
+  margin: 10px 0;
+}
+
+.sheet-label input[type="radio"] {
+  display: none;
+}
+
+.sheet-label .sheet-tab {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sheet-label .sheet-tab:hover {
+  background-color: #218838;
+}
+
+/* Estilos para o conteúdo das abas */
+.sheet-tab-content h1 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.sheet-tab-content label {
+  display: block;
+  margin: 10px 0;
+}
+
+/* characterSheet.css */
+
+/* Geral */
+.sheet-1colrow {
+  text-align: center;
+}
+
+.sheet-tab {
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sheet-tab-content {
+  display: none;
+}
+
+.sheet-show {
+  display: block;
+}
+
+/* Tabelas */
+.sheet-table-row {
+  display: flex;
+  align-items: center;
+}
+
+.sheet-table-header2 {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.sheet-table-data-skills {
+  padding: 5px;
+}
+
+.sheet-table-data-skills-sm {
+  padding: 5px;
+  width: 200px;
+}
+
+/* Inputs */
+.sheet-statlabel {
+  width: 20px;
+}
+
+.sheet-statlabel-big {
+  width: 900px;
+}
+
+.sheet-statlabel-rev {
+  width: 20px;
+}
+
+/* Checkbox e Radio */
+.sheet-arrow {
+  cursor: pointer;
+}
+
+.sheet-expand {
+  display: none;
+}
+
+.sheet-label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Outros */
+.sheet-pc-spellsclosed-show,
+.sheet-pc-spellsownbase-show,
+.sheet-pc-spellsopen-show,
+.sheet-pc-equip-show {
+  cursor: pointer;
+}
+
+.sheet-pc-spellsclosed,
+.sheet-pc-spellsownbase,
+.sheet-pc-spellsopen,
+.sheet-pc-equip {
+  display: none;
+}
+
+.sheet-character-sheet {
+  float: left;
+}
+
+.repeating_equipment {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
